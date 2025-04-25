@@ -21,18 +21,18 @@ const Index = () => {
           </LinkButton>
           
           <LinkButton 
-            href="https://wa.me/1234567890"
+            href="https://wa.me/573165875372"
             icon={<MessageSquare size={20} />}
           >
             Contactar por WhatsApp
           </LinkButton>
           
           <LinkButton 
-            href="#servicios"
+            href="https://instagram.com/sarapadilla"
             icon={<Star size={20} />}
             className="bg-white !from-transparent !to-transparent !text-primary border border-primary hover:bg-primary/5"
           >
-            Conoce Nuestros Servicios
+            Sígueme en Instagram
           </LinkButton>
         </div>
 

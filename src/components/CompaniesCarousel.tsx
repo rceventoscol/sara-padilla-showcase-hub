@@ -9,20 +9,16 @@ import {
 
 const companies = [
   {
-    name: "Empresa 1",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop&q=60"
+    name: "Vigox",
+    image: "/lovable-uploads/d6393300-f532-4644-8a62-751ab7b9bff9.png"
   },
   {
-    name: "Empresa 2",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60"
+    name: "Sirenas",
+    image: "/lovable-uploads/121e5b6f-debd-4499-9a99-d353976b8b06.png"
   },
   {
-    name: "Empresa 3",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=60"
-  },
-  {
-    name: "Empresa 4",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&auto=format&fit=crop&q=60"
+    name: "LYM",
+    image: "/lovable-uploads/0289a2ca-9693-411d-be79-516aa6b0548a.png"
   }
 ];
 
@@ -44,7 +40,7 @@ const CompaniesCarousel = () => {
                   <img
                     src={company.image}
                     alt={company.name}
-                    className="h-48 w-full object-cover transition-transform duration-300 hover:scale-105"
+                    className="h-48 w-full object-contain transition-transform duration-300 hover:scale-105"
                   />
                 </div>
               </div>
