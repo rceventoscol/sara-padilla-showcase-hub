@@ -1,10 +1,9 @@
 
-import { Facebook, Instagram, Mail } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 const SocialLinks = () => {
   const socials = [
     { icon: Instagram, href: "https://instagram.com/sarapadilla", label: "Instagram" },
-    { icon: Facebook, href: "https://facebook.com/sarapadilla", label: "Facebook" },
     { icon: Mail, href: "mailto:contacto@sarapadilla.com", label: "Email" },
   ];
 
